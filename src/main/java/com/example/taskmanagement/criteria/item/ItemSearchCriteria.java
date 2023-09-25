@@ -1,0 +1,13 @@
+package com.example.taskmanagement.criteria.item;
+
+import lombok.AccessLevel;
+import lombok.Data;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class ItemSearchCriteria {
+
+    String name;
+    String description;
+}
